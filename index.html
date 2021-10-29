@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyPortfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css" />
   </head>
   <body>
     <header class="hero-box">
@@ -21,6 +22,59 @@
         <p class="hero-text">Oreo is terrorizing Cleveland</p>
       </section>
     </header>
-    <p></p>
+    <section class="portfolio-container">
+      <h1>portfolio</h1>
+      <section class="portfolio-gallery">
+        <div class="gallery-item">
+          <a
+            class="glightbox"
+            href="img/unnamed2.jpeg"
+            data-glightbox="title: RTA sketch 1; description: sketch number one"
+          >
+            <img class="gallery-img" src="img/unnamed2.jpeg" alt="" />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            class="glightbox"
+            href="img/unnamed3.jpeg"
+            data-glightbox="title: RTA sketch 2; description: Sketch number two"
+          >
+            <img class="gallery-img" src="img/unnamed3.jpeg" alt="" />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            class="glightbox"
+            href="img/unnamed4.jpeg"
+            data-glightbox="title: RTA sketch 3; description: sketch number
+          three"
+          >
+            <img class="gallery-img" src="img/unnamed4.jpeg" alt="" />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            class="glightbox"
+            href="img/unnamed5.jpeg"
+            data-glightbox="title: RTA sketch 4; description: sketch number
+            four"
+          >
+            <img class="gallery-img" src="img/unnamed5.jpeg" alt="" />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a class="glightbox" href="img/unnamed6.jpeg">
+            data-glightbox="title: RTA sketch 5; description: sketch number
+            five"
+            <img class="gallery-img" src="img/unnamed6.jpeg" alt="" />
+          </a>
+        </div>
+      </section>
+    </section>
+    <script src="js/glightbox.min.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({ loop: true });
+    </script>
   </body>
 </html>

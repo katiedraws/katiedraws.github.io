@@ -135,6 +135,10 @@ img {
 .about-social a {
   color: black;
   padding: 1rem;
+  font-size: 3rem;
+}
+.about-social a:hover {
+  color: fuchsia;
 }
 .about-image img {
   height: 100%;
@@ -158,6 +162,9 @@ img {
   .about-container {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
+  }
+  .about-social a {
+    font-size: 3rem;
   }
   .about-text h1 {
     font-size: 4rem;
@@ -194,5 +201,8 @@ img {
   .about-text p {
     font-size: 1.6rem;
     line-height: 2.1rem;
+  }
+  .about-social a {
+    font-size: 4rem;
   }
 }
